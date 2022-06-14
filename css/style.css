@@ -147,24 +147,146 @@ body {
 	text-transform: uppercase;
 }
 
+#feature {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
 #feature .fe-box {
 	width: 180px;
 	text-align: center;
 	padding: 25px 15px;
-	box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.08);
-	border: 1px solid #dbf5f5;
+	box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+	border: 1px solid #dfdfdf;
 	border-radius: 4px;
 	margin: 15px 0;
 }
 
-#feature .fe-box:hover{
+#feature .fe-box:hover {
 	box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.13);
 }
 
-#feature .fe-box h6{
+#feature .fe-box img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#feature .fe-box h6 {
+	display: inline-block;
 	padding: 9px 8px 6px 8px;
 	line-height: 1;
 	border-radius: 4px;
-	color: #50969e;
+}
+
+#feature .fe-box:nth-child(1) h6 {
+	color: #4a838a;
 	background-color: #e2fdfd;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+	color: #c0719f;
+	background-color: #fdecf6;
+}
+
+#feature .fe-box:nth-child(3) h6 {
+	color: #7d9659;
+	background-color: #def0c4;
+}
+
+#feature .fe-box:nth-child(4) h6 {
+	color: #5e88a1;
+	background-color: #c6e2f3;
+}
+
+#feature .fe-box:nth-child(5) h6 {
+	color: #796ca3;
+	background-color: #d1c6f0;
+}
+
+#feature .fe-box:nth-child(6) h6 {
+	color: #916f59;
+	background-color: #dfbda7;
+}
+
+#product1 {
+	text-align: center;
+}
+
+#product1 .pro-container {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+
+#product1 .pro {
+	width: 23%;
+	min-width: 250px;
+	padding: 10px 12px;
+	border: 1px solid #dfdfdf;
+	border-radius: 25px;
+	cursor: pointer;
+	box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.08);
+	margin: 15px 0;
+	transition: 0.2s ease;
+	position: relative;
+}
+
+#product1 .pro:hover {
+	box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.13);
+}
+
+#product1 .pro img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+#product1 .pro .des {
+	text-align: start;
+	padding: 10px 0;
+}
+
+#product1 .pro .des span {
+	color: #606063;
+	font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+	padding-top: 7px;
+	color: #1a1a1a;
+	font-size: 17px;
+}
+
+#product1 .pro .des i {
+	font-size: 12px;
+	color: #f3b519;
+}
+
+#product1 .pro .des h4 {
+	padding-top: 7px;
+	font-size: 17px;
+	font-weight: 900;
+	color: #f14e15;
+}
+
+#product1 .pro .cart {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #f14e15;
+	border: 1px solid #f14e15;
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+	transition: 0.2s ease;
+	cursor: pointer;
+	align-items: center;
+}
+
+#product1 .pro .cart:hover {
+	background-color: #f14e15;
+	color: #ffffff;
 }
