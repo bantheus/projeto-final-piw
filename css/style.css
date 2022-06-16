@@ -145,11 +145,21 @@ body {
 }
 
 #hero h4 {
+	font-size: 3rem;
 	padding-bottom: 1.5rem;
 }
 
+#hero h2 {
+	font-size: 5rem;
+}
+
 #hero h1 {
+	font-size: 7rem;
 	color: #f14e15;
+}
+
+#hero p {
+	font-size: 2.5rem;
 }
 
 #hero button {
@@ -347,7 +357,7 @@ body {
 
 #banner h4 {
 	color: #ffffff;
-	font-size: 1.6rem;
+	font-size: 2rem;
 }
 
 #banner h2 {
