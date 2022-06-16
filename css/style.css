@@ -135,7 +135,7 @@ body {
 }
 
 #hero button {
-	background-image: url(/img/button.png);
+	background-image: url(../img/button.png);
 	background-color: transparent;
 	color: #f14e15;
 	border: 0;
@@ -145,6 +145,12 @@ body {
 	font-weight: 700;
 	font-size: 15px;
 	text-transform: uppercase;
+	transition: 0.3s ease;
+}
+
+#hero button:hover {
+	background-image: url(../img/button_hover.png);
+	color: #cc4818;
 }
 
 #feature {
@@ -158,14 +164,22 @@ body {
 	width: 180px;
 	text-align: center;
 	padding: 25px 15px;
-	box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+	box-shadow: 3.1px 2.8px 3.5px -10px rgba(0, 0, 0, 0.011),
+		6.8px 6.1px 8.9px -10px rgba(0, 0, 0, 0.018),
+		11.7px 10.5px 18.3px -10px rgba(0, 0, 0, 0.025),
+		19.9px 17.9px 37.6px -10px rgba(0, 0, 0, 0.033),
+		40px 36px 103px -10px rgba(0, 0, 0, 0.05);
 	border: 1px solid #dfdfdf;
 	border-radius: 4px;
 	margin: 15px 0;
 }
 
 #feature .fe-box:hover {
-	box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.13);
+	box-shadow: 3.1px 2.8px 3.5px -10px rgba(0, 0, 0, 0.026),
+		6.8px 6.1px 8.9px -10px rgba(0, 0, 0, 0.037),
+		11.7px 10.5px 18.3px -10px rgba(0, 0, 0, 0.046),
+		19.9px 17.9px 37.6px -10px rgba(0, 0, 0, 0.053),
+		40px 36px 103px -10px rgba(0, 0, 0, 0.06);
 }
 
 #feature .fe-box img {
@@ -228,14 +242,23 @@ body {
 	border: 1px solid #dfdfdf;
 	border-radius: 25px;
 	cursor: pointer;
-	box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.08);
+	box-shadow: 3.1px 2.8px 3.5px -10px rgba(0, 0, 0, 0.011),
+		6.8px 6.1px 8.9px -10px rgba(0, 0, 0, 0.018),
+		11.7px 10.5px 18.3px -10px rgba(0, 0, 0, 0.025),
+		19.9px 17.9px 37.6px -10px rgba(0, 0, 0, 0.033),
+		40px 36px 103px -10px rgba(0, 0, 0, 0.05);
+
 	margin: 15px 0;
 	transition: 0.2s ease;
 	position: relative;
 }
 
 #product1 .pro:hover {
-	box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.13);
+	box-shadow: 3.1px 2.8px 3.5px -10px rgba(0, 0, 0, 0.026),
+		6.8px 6.1px 8.9px -10px rgba(0, 0, 0, 0.037),
+		11.7px 10.5px 18.3px -10px rgba(0, 0, 0, 0.046),
+		19.9px 17.9px 37.6px -10px rgba(0, 0, 0, 0.053),
+		40px 36px 103px -10px rgba(0, 0, 0, 0.06);
 }
 
 #product1 .pro img {
