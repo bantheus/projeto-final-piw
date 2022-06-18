@@ -500,3 +500,120 @@ span {
 	font-weight: 600;
 	color: #818ea0;
 }
+
+#newsletter p span {
+	color: #f14e15;
+}
+
+#newsletter .form {
+	display: flex;
+	width: 40%;
+}
+
+#newsletter input {
+	height: 4.992rem;
+	padding: 0 1.25em;
+	font-size: 1.4rem;
+	width: 100%;
+	border: 0.1rem solid transparent;
+	border-radius: 0.4rem 0 0 0.4rem;
+	outline: none;
+}
+
+#newsletter button {
+	background-color: #f14e15;
+	color: #ffffff;
+	white-space: nowrap;
+	border-radius: 0 0.4rem 0.4rem 0;
+}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+footer .col {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 2rem;
+}
+
+footer .logo {
+	margin-bottom: 3rem;
+}
+
+footer h4 {
+	font-size: 1.4rem;
+	padding-bottom: 2rem;
+}
+
+footer p,
+strong {
+	font-size: 1.3rem;
+	margin: 0 0 0.8rem 0;
+}
+
+footer a {
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: #222222;
+	margin-bottom: 1rem;
+}
+
+footer a:hover {
+	color: #f14e15;
+}
+
+footer .follow {
+	margin-top: 2rem;
+}
+
+footer .follow i {
+	color: #222222;
+	padding-right: 0.4rem;
+	cursor: pointer;
+}
+
+footer .follow .fa-facebook:hover {
+	color: #395599;
+}
+
+footer .follow .fa-instagram:hover {
+	color: #cc3171;
+}
+
+footer .follow .fa-twitter:hover {
+	color: #1c99e5;
+}
+
+footer .follow .fa-youtube:hover {
+	color: #f20000;
+}
+
+footer .install .row img {
+	border: 0.1rem solid #f14e15;
+	border-radius: 0.6rem;
+}
+
+footer .install img {
+	margin: 1rem 0 1.5rem 0;
+}
+
+footer .copyright {
+	width: 100%;
+	text-align: center;
+}
+
+/*@media (min-width: 1200px) {
+	* {
+		font-size: 13px;
+	}
+}*/
+
+/*@media screen and (min-width: 1200px) {
+  html {
+    font-size: 80%;
+  }
+}*/
