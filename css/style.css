@@ -889,4 +889,17 @@ footer .copyright {
 	footer .copyright {
 		text-align: start;
 	}
+
+	#prodetails {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#prodetails .single-pro-img {
+		width: 100%;
+	}
+
+	#prodetails .single-pro-details {
+		width: 100%;
+	}
 }
