@@ -780,8 +780,9 @@ footer .copyright {
 	height: 100%;
 }
 
-#form-details{
+#form-details {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 }
@@ -820,6 +821,139 @@ footer .copyright {
 	border-radius: 0.4rem;
 	font-size: 1.4rem;
 	font-weight: 600;
+}
+
+#cart-shop table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	white-space: nowrap;
+}
+
+#cart-shop .delete {
+	color: #cf0404;
+}
+
+#cart-shop table img {
+	width: 7rem;
+}
+
+#cart-shop table td,
+#cart-shop table td input {
+	font-size: 1.4rem;
+}
+
+#cart-shop table td:nth-child(1) {
+	width: 10rem;
+	text-align: center;
+}
+
+#cart-shop table td:nth-child(2) {
+	width: 15rem;
+	text-align: center;
+}
+
+#cart-shop table td:nth-child(3) {
+	width: 25rem;
+	text-align: center;
+}
+
+#cart-shop table td:nth-child(4),
+#cart-shop table td:nth-child(5),
+#cart-shop table td:nth-child(6) {
+	width: 15rem;
+	text-align: center;
+}
+
+#cart-shop table td:nth-child(5) input {
+	width: 7rem;
+	padding: 1rem 0.5rem 1rem 1.5rem;
+}
+
+#cart-shop thead {
+	border: 0.1rem solid #e2e9e1;
+	border-left: none;
+	border-right: none;
+}
+
+#cart-shop thead td {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	padding: 1.8rem 0;
+}
+
+#cart-shop table tbody tr td {
+	padding-top: 1.5rem;
+}
+
+#cart-shop table tbody td {
+	font-size: 1.3rem;
+}
+
+#cart-add {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#cupon h3,
+#subtotal h3 {
+	font-size: 2rem;
+}
+
+#subtotal td,
+#subtotal td strong {
+	font-size: 1.4rem;
+}
+
+#cupon input {
+	font-size: 1.4rem;
+}
+
+#cupon {
+	width: 50%;
+	margin-bottom: 3rem;
+}
+
+#cupon h3,
+#subtotal h3 {
+	padding-bottom: 1.5rem;
+}
+
+#cupon input {
+	padding: 1rem 2rem;
+	outline: none;
+	width: 60%;
+	margin-right: 1rem;
+	border: 0.1rem solid #e2e9e1;
+}
+
+#cupon button,
+#subtotal button {
+	background-color: #f14e15;
+	color: #ffffff;
+	padding: 1rem 2rem;
+}
+
+#subtotal {
+	width: 50%;
+	margin-bottom: 3rem;
+	border: 0.1rem solid #e2e9e1;
+	padding: 3rem;
+}
+
+#subtotal table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+#subtotal table td {
+	width: 50%;
+	border: 0.1rem solid #e2e9e1;
+	padding: 1rem;
+	font-size: 1.3rem;
 }
 
 @media (max-width: 799px) {

@@ -22,10 +22,10 @@
 					<li><a href="loja.html">Loja</a></li>
 					<li><a href="blog.html">Blog</a></li>
 					<li><a href="sobre.html">A Lorem</a></li>
-					<li><a class="active" href="contato.html">Contato</a></li>
+					<li><a href="contato.html">Contato</a></li>
 					<li id="lb-bag">
-						<a href="cart.html"
-							><iclass="fa-solid fa-cart-shopping cart"></i
+						<a class="active" href="cart.html"
+							><i class="fa-solid fa-cart-shopping cart"></i
 						></a>
 					</li>
 					<a href="#" id="close"><i class="fa-solid fa-xmark cart"></i></a>
@@ -40,65 +40,92 @@
 
 		<!-- Hero Start-->
 		<section id="page-header" class="about-header">
-			<h2>Contato</h2>
-      <p>Deixe uma Mensagem</p>
+			<h2>Carrinho</h2>
 		</section>
 		<!-- Hero End -->
 
-    <!-- Contact Start -->
-    <section id="contact-details" class="section-p1">
-      <div class="details">
-        <h2>Visite a nossa loja pessoalmente</h2>
-        <h3>Loja Principal</h3>
-        <div>
-          <li>
-            <i class="fa-solid fa-map-location-dot cart"></i>
-            <p>R. Doutor Washington Subtil Chueire, 330 - Jardim Carvalho, Ponta Grossa - PR, 84017-220</p>
-          </li>
+		<section id="cart-shop" class="section-p1">
+			<table width="100%">
+				<thead>
+					<tr>
+						<td>REMOVER</td>
+						<td>IMAGEM</td>
+						<td>PRODUTO</td>
+						<td>PREÇO</td>
+						<td>QUANTIDADE</td>
+						<td>TOTAL</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<a class="delete" href="#"><i class="fa-solid fa-trash cart"></i></a>
+						</td>
+						<td><img src="img/produtos/f1.jpg" alt="" /></td>
+						<td>Camiseta Florida</td>
+						<td>R$ 90.00</td>
+						<td><input type="number" value="1" /></td>
+						<td>R$90,00</td>
+					</tr>
 
-          <li>
-            <i class="fa-solid fa-envelope cart"></i>
-            <p>mensagem.lorem@lorem.com</p>
-          </li>
+					<tr>
+						<td>
+							<a class="delete" href="#"><i class="fa-solid fa-trash cart"></i></a>
+						</td>
+						<td><img src="img/produtos/f2.jpg" alt="" /></td>
+						<td>Camiseta Florida</td>
+						<td>R$ 90.00</td>
+						<td><input type="number" value="1" /></td>
+						<td>R$90,00</td>
+					</tr>
 
-          <li>
-            <i class="fa-solid fa-clock cart"></i>
-            <p>Segunda - Sexta: 09:00am - 17:00pm</p>
-          </li>
-        </div>
-      </div>
+					<tr>
+						<td>
+							<a class="delete" href="#"><i class="fa-solid fa-trash cart"></i></a>
+						</td>
+						<td><img src="img/produtos/f3.jpg" alt="" /></td>
+						<td>Camiseta Florida</td>
+						<td>R$ 90.00</td>
+						<td><input type="number" value="1" /></td>
+						<td>R$90,00</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
 
-      <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.477923077995!2d-50.131929199999995!3d-25.0517857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81971c7e21975%3A0x4e557007a1f159d8!2sUniversidade%20Tecnol%C3%B3gica%20Federal%20do%20Paran%C3%A1%20%7C%20Campus%20Ponta%20Grossa!5e0!3m2!1spt-BR!2sbr!4v1656288850909!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </section>
-    <!-- Contact End -->
-
-    <section id="form-details">
-      <form action="">
-        <span>Deixe uma mensagem</span>
-        <h2>Nós amamos te ouvir</h2>
-        <input type="text" placeholder="Seu nome">
-        <input type="email" placeholder="E-mail">
-        <input type="text" placeholder="Assunto">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
-        <button class="normal">Enviar</button>
-      </form>
-    </section>
-
-		<!--Newsletter Start-->
-		<section class="section-p1 section-m1" id="newsletter">
-			<div class="newstext">
-				<h4>Se inscreva na nossa Newsletter</h4>
-				<p>Informe o seu email para receber <span>promoções especiais.</span></p>
+		<section id="cart-add" class="section-p1">
+			<div id="cupon">
+				<h3>Aplicar Cupom</h3>
+				<div>
+					<input type="text" placeholder="Insira o seu cupom" />
+					<button class="normal">Aplicar</button>
+				</div>
 			</div>
 
-			<div class="form">
-				<input type="text" placeholder="Seu melhor E-mail" />
-				<button class="normal">Se Inscrever</button>
+			<div id="subtotal">
+				<h3>Valor Total</h3>
+				<table>
+					<tr>
+						<td>Produtos</td>
+						<td>R$270,00</td>
+					</tr>
+					<tr>
+						<td>Frete</td>
+						<td>Grátis</td>
+					</tr>
+					<tr>
+						<td>Cupom</td>
+						<td>-R$50,00</td>
+					</tr>
+					<tr>
+						<td><strong>Total</strong></td>
+						<td><strong>R$220,00</strong></td>
+					</tr>
+				</table>
+
+        <button class="normal">Finalizar Compra</button>
 			</div>
 		</section>
-		<!--Newsletter End-->
 
 		<!--Footer Start-->
 		<footer class="section-p1">
